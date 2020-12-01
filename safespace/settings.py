@@ -25,9 +25,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'x2=cz(rd4%75f(=^p67^$ze-72xxr2(gyvrng9uy!_kddt*f^z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','safespace12.pythonanywhere.com']
 
 
 # Application definition
